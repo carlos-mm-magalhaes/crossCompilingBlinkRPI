@@ -3,7 +3,7 @@ include(${CMAKE_SOURCE_DIR}/toolchain-rpi.cmake)
 # Name our project
 project(Sweep)
 # Create a variable that holds the path to our libwiringPi.so file
-set(WPI_PATH /mnt/c/Users/Carlos/Desktop/RaspberryPi/Development/wiringPi/wiringPi)
+set(WPI_PATH ./WiringPi/wiringPi)
 # Add the local ‘include’ directory and the wiringPi directory to grab headers
 include_directories(include ${WPI_PATH})
 # Actually find the wiringPi library object
